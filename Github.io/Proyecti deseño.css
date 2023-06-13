@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Courier New;
+    height: 150vh;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Pangolin', cursive;
+}
+header{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(123, 198, 204, 0.63), rgba(190, 147, 197, 0.61)),url(paisaje.jpg);
+
+
+
+    padding-bottom: 60px;
+}
+.contenedor-textos{
+    width: 50%;
+    color: #a2fde8;
+    
+}
+h1{
+    font-weight: 700;
+    font-size: 85px;
+    margin: 30px;
+    text-shadow: 1px 3px 3px #ffffff;
+    
+}
+img{
+    width: 20%;
+    display: inline-block;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+}
